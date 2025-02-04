@@ -43,31 +43,31 @@ app.get('/bacheca', (req, res) => {
         {
             titolo: "Ricetta del Ciambellone soffice",
             contenuto: "Scopri come preparare un ciambellone soffice e gustoso, perfetto per la colazione o la merenda.",
-            immagine: "http://localhost:3000/images/ciambellone.jpeg",
+            immagine: "/images/ciambellone.jpeg",
             tags: ["Dolci", "Colazione", "Forno"]
         },
         {
             titolo: "Cracker fatti in casa: croccanti e genuini",
             contenuto: "Preparare i cracker in casa è facile e veloce! Perfetti per uno snack leggero e salutare.",
-            immagine: "http://localhost:3000/images/cracker_barbabietola.jpeg",
+            immagine: "/images/cracker_barbabietola.jpeg",
             tags: ["Snack", "Sano", "Forno"]
         },
         {
             titolo: "Pane fritto: una delizia da provare",
             contenuto: "Il pane fritto è una ricetta semplice e sfiziosa, perfetta per accompagnare salumi e formaggi.",
-            immagine: "http://localhost:3000/images/pane_fritto_dolce.jpeg",
+            immagine: "/images/pane_fritto_dolce.jpeg",
             tags: ["Pane", "Fritto", "Tradizione"]
         },
         {
             titolo: "Pasta fatta in casa: il segreto della nonna",
             contenuto: "Impara a fare la pasta fresca in casa con pochi ingredienti e tanta passione.",
-            immagine: "http://localhost:3000/images/pasta_barbabietola.jpeg",
+            immagine: "/images/pasta_barbabietola.jpeg",
             tags: ["Pasta", "Tradizione", "Fatto in casa"]
         },
         {
             titolo: "Torta Paesana: un dolce della tradizione",
             contenuto: "La Torta Paesana è un dolce tipico lombardo a base di pane raffermo, latte e cacao.",
-            immagine: "http://localhost:3000/images/torta_paesana.jpeg",
+            immagine: "/images/torta_paesana.jpeg",
             tags: ["Dolci", "Tradizione", "Lombardia"]
         }
     ];
